@@ -1,0 +1,6 @@
+framework module Pods_ManHua {
+  umbrella header "Pods-ManHua-umbrella.h"
+
+  export *
+  module * { export * }
+}

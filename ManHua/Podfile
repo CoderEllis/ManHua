@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'ManHua' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ManHua
+pod 'SnapKitExtend'
+pod 'Then'
+pod 'Kingfisher'
+pod 'Reusable'
+pod 'LLCycleScrollView'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'HMSegmentedControl'
+pod 'IQKeyboardManagerSwift'
+pod 'EmptyDataSet-Swift'
+#pod 'Alamofire', '~> 4.6.0' 
+pod 'Alamofire'
+pod 'Moya'
+#pod 'UINavigation-SXFixSpace-Swift'
+pod 'HandyJSON', '~> 4.2.0'
+
+end

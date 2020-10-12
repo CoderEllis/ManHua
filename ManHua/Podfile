@@ -17,10 +17,11 @@ pod 'MBProgressHUD'
 pod 'HMSegmentedControl'
 pod 'IQKeyboardManagerSwift'
 pod 'EmptyDataSet-Swift'
-#pod 'Alamofire', '~> 4.6.0' 
 pod 'Alamofire'
 pod 'Moya'
+pod 'HandyJSON'
+
+#pod 'Alamofire', '~> 4.6.0' 
 #pod 'UINavigation-SXFixSpace-Swift'
-pod 'HandyJSON', '~> 4.2.0'
 
 end

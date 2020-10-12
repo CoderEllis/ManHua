@@ -165,7 +165,7 @@ extension MoyaProvider {
             
             result.value?.data.printData()
             
-            guard let returnData = try? result.value?.mapModel(LBUResponseData<T>.self) else {
+            guard let returnData = ((try? result.value?.mapModel(LBUResponseData<T>.self)) as LBUResponseData<T>??) else {
                 completion(nil)
                 return
             }

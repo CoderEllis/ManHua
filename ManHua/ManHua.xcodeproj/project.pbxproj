@@ -847,7 +847,7 @@
 				1678AF222386B81B008B28F0 /* Sources */,
 				1678AF232386B81B008B28F0 /* Frameworks */,
 				1678AF242386B81B008B28F0 /* Resources */,
-				BAE6495C4FA0DEF7ECF3C368 /* [CP] Embed Pods Frameworks */,
+				946F5EBB0B5595B616906891 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -870,6 +870,7 @@
 				TargetAttributes = {
 					1678AF252386B81B008B28F0 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -904,7 +905,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BAE6495C4FA0DEF7ECF3C368 /* [CP] Embed Pods Frameworks */ = {
+		946F5EBB0B5595B616906891 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1176,7 +1177,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.ldemdw.ManHua;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1195,7 +1196,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.ldemdw.ManHua;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
